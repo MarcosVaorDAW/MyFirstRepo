@@ -1,0 +1,15 @@
+CATEGORIA(codi,nom)
+PK:codi
+
+ARTICLE(codi,nom,codiCaegoria)
+PK:codi
+FK:codiCaegoria->CATEGORIA(codi)
+
+COMPONENT(codi,nom,descripcio)
+PK:codi
+
+ES_PART_DE(codiCategoria,codiArticle,quantitat)
+PK:(codiCategoria,codiArticle)
+FK:codiCategoria->CATEGORIA(codi)
+FK:codiArticle-> ARTICLE(codi)
+
