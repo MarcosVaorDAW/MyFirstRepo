@@ -1,2 +1,6 @@
 asdasdasdasdasdasdasdasd
+<<<<<<< HEAD
 no fff
+=======
+fffffff
+>>>>>>> 9c3eea3cee7e92ff0258ee44d72ea0f994946366
